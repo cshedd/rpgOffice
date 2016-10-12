@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  color: #333333;
+  padding-top: 0px;
+  background: #efefef;
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  font-family: 'Inconsolata', monospace;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color: #333333;
+  text-align: center;
+  background-color: #efefef;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  color: black bold;
+  line-height: 50px;
+}
+
+h1.game-title {
+  font-size: 60px;
+  text-shadow: 0 1px 0 hsl(174, 5%, 80%),
+               0 2px 0 hsl(174, 5%, 75%),
+               0 3px 0 hsl(174, 5%, 70%),
+               0 4px 0 hsl(174, 5%, 66%),
+               0 5px 0 hsl(174, 5%, 64%),
+               0 6px 0 hsl(174, 5%, 62%),
+               0 7px 0 hsl(174, 5%, 61%),
+               0 8px 0 hsl(174, 5%, 60%),
+               0 0 5px rgba(0, 0, 0, .05),
+               0 1px 3px rgba(0, 0, 0, .2),
+               0 3px 5px rgba(0, 0, 0, .2),
+               0 5px 10px rgba(0, 0, 0, .2),
+               0 10px 10px rgba(0, 0, 0, .2),
+               0 20px 20px rgba(0, 0, 0, .3);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+  color: #333;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#instructions {
+  font-size: 24px;
+  color: #488BF4;
+  text-shadow: 0px 2px 1px rgba(0,0,0,.15);
+  font-family: 'Inconsolata', monospace;
+
+}
+
+header {
+
+    background: url('../img/paper.jpg') repeat;
+    padding-top: 25px;
+    border-top: 10px solid #488BF4;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#attackButton {
+  color: #FFF;
+  background: #000000;
+  border-radius: 7px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  text-shadow: 0px 2px 1px rgba(0,0,0,.15);
+}
+
+#resetButton {
+  color: #333;
+  background: #d3d3d3;
+  border-radius: 7px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+}
+
+.myChar-health p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+font-family: 'Inconsolata', monospace;
+}
+
+.opponent-health p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+font-family: 'Inconsolata', monospace;
+}
+
+.battle-details p {
+  text-align: center;
+font-family: 'Inconsolata', monospace;
+}
+
+.instruct {
+  text-align: center;
+  margin-top: 25px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background: #fff;
+  padding: 15px;
+  border-bottom: #cccccc 1px solid;
+  width: 100%;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+.character-image img {
+  margin: 0 auto;
+  text-align: center;
+  width: 180px;
+  height: auto;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+.character-image img:hover {
+  opacity: 1;
+  position: relative;
+  top: -10px;
+}
+
+/* Center character image inside chosen character and opponent divs */
+.chosenChar img {
+	display: block;
+	margin: 0 auto;
+}
+
+.chosenOpp img {
+	display: block;
+	margin: 0 auto;
+}
+
+.selectCharacter {
+  background: #00688B;
+  padding: 30px;
+}
+
+.selected {
+  background: #2ecc71;
+}
+
+.opponent {
+  background: #e74c3c;
+}
+
+.button-group {
+  margin-top: 40px;
+}
+
+.btn {
+  margin-bottom: 20px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
